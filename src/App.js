@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from './views/AboutPage';
+import Form from './views/FormPage';
+import Home from './views/HomePage';
+import Login from './views/LoginPage'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <Router>
+      <Routes>
+        <Route path="/About" element={<About/>}/>  
+        <Route path="/Form" element={<Form/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Login" element={<Login/>}/>
+      </Routes>
+      <footer clasName='App-footer'>
+        <a href='https://www.linkedin.com/in/wiloferb/' target='_blank' rel='noopener noreferrer'>
+          Diseño por: Wiloferb
         </a>
-      </header>
-    </div>
+
+        <a href='https://vasscompany.com/' target='_blank' rel='noopener noreferrer'>
+          VASS | Soluciones Digitales | COMPLEX MADE SIMPLE
+        </a>
+      </footer>
+    </Router>
   );
 }
-
-export default App;
