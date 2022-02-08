@@ -4,13 +4,21 @@ import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
-    <div className = 'App'>
-      <header>
-        <Link to="/">Inicio</Link>
-        <Link to="/Login">Ingresar</Link>
-        <Link to="/Form">Formulario</Link>
+    <div>
+      <header className="App_header">
+        <Link to="/">
+          <img src="./img/vass-logo.png" width="100px" />
+        </Link>
+        <div className="App_menu">
+          <Link className="link" to="/">
+            Inicio
+          </Link>
+          <Link className="link" to="/Login">
+            Ingresar
+          </Link>
+        </div>
       </header>
-      <div>
+      <div className="About_body">
         <h1>¿Que es el Sitema de Regitro SOGAGEF</h1>
         <p>
           Dada la constante necesidad de escalar solicitudes que requieren
@@ -37,7 +45,7 @@ export default function HomePage() {
           la compañía, para satisfacer la necesidad de llevar un control de
           todas estas solicitudes, que con el paso de los días son recurrentes y
           necesarias. Ideado, Diseñado y puesto en marcha por Wilmer Salamanca
-          Granados {" "}
+          Granados{" "}
           <a
             href="https://www.linkedin.com/in/wiloferb/"
             target="_blank"

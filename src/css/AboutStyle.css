@@ -1,3 +1,22 @@
-div.App{
-    background-color: aquamarine;
+div.About_body h1 {
+  font-family: "Guise Medium";
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+div.About_body p {
+  font-family: "Guise Light";
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  text-indent: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+div.About_body a {
+  text-decoration: none;
+  font-weight: 800;
+  color: black;
 }

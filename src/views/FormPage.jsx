@@ -1,13 +1,26 @@
+import "../css/FormStyle.css";
 import { Link } from "react-router-dom";
-import '../css/FormStyle.css';
+import FormC from "../components/FormComponent";
+
 export default function FormPage() {
   return (
-    <div className="App">
-      <header>
-        <Link to="/">Inicio</Link>
-        <Link to="/About">Acerca del Sistema</Link>
+    <div>
+      <header className="App_header">
+        <Link to="/">
+          <img src="./img/vass-logo.png" width="100px" />
+        </Link>
+        <div className="App_menu">
+          <Link className="link" to="/">
+            Inicio
+          </Link>
+          <Link className="link" to="/About">
+            Acerca del Sistema
+          </Link>
+        </div>
       </header>
-      <img src="./img/construccion.png"></img>
+      <div>
+        <FormC />
+      </div>
     </div>
   );
 }

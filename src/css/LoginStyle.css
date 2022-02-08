@@ -1,0 +1,57 @@
+div.Login_body h1 {
+  font-family: "Guise Medium";
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.Login_box {
+    border: 2px solid #0096C7;
+    width: 30%;
+    text-align: center;
+    margin: 50px auto;
+    background: rgba(0, 118, 182, 0.404);
+    padding: 20px 50px;
+    transition: box-shadow 3s;
+    border-radius: 10px;
+}
+
+.Login_box:hover {
+    box-shadow: 0px 0px 10px 4px #0077B6;
+    transition: box-shadow 1s;
+}
+
+div.Login_box h2{
+    color: white;
+    font-family: 'Guise SemiBold';
+}
+
+div.Login_item input{
+    width: 200px;
+    border: 0;
+    margin: 10px 0;
+    border-bottom: 5px solid white;
+    font-size: 18px;
+    font-family: 'Guise Light';
+    background: transparent;
+    padding: 10px 10px;
+}
+
+
+div.Login_Button input{
+    padding: 10px;
+    margin: 20px;
+    width: 70%;
+    background: #0076b6d3;
+    border-style: none;
+    font-size: 20px;
+    font-family: 'Guise Bold';
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.Login_Button:hover input{
+    background: white;
+    color: #0077B6;
+}

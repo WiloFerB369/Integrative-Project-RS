@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Guise Bold';
+  src: local('Guise Bold'), url(./fonts/HK_Guise_Bold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Guise ExtraLight';
+  src: local('Guise ExtraLight'), url(./fonts/HK_Guise_ExtraLight.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Guise Light';
+  src: local('Guise Light'), url(./fonts/HK_Guise_Light.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Guise Medium';
+  src: local('Guise Medium'), url(./fonts/HK_Guise_Medium.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Guise Regular';
+  src: local('Guise Regular'), url(./fonts/HK_Guise_Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Guise SemiBold';
+  src: local('Guise SemiBold'), url(./fonts/HK_Guise_SemiBold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Guise Thin';
+  src: local('Guise Thin'), url(./fonts/HK_Guise_Thin.otf) format('truetype');
+}

@@ -1,8 +1,8 @@
-import "../css/LoginStyle.css";
+import "../css/FormStyle.css";
 import { Link } from "react-router-dom";
-import Login from "../components/LoginComponent";
+import FormU from "../components/FormUsersComponent"
 
-export default function LoginPage() {
+export default function FormUsersPage() {
   return (
     <div>
       <header className="App_header">
@@ -13,17 +13,16 @@ export default function LoginPage() {
           <Link className="link" to="/">
             Inicio
           </Link>
+          <Link className="link" to="/Requests">
+            Solicitudes
+          </Link>
           <Link className="link" to="/About">
             Acerca del Sistema
           </Link>
         </div>
       </header>
-      <div className="Login_body">
-        <h1> Sistema de Registro SOGAGEF </h1>
-        <div className='Login_box'>
-          <h2>Inicio de Sesión</h2>
-          <Login />
-        </div>
+      <div>
+        <FormU/>
       </div>
     </div>
   );

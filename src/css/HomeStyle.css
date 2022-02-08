@@ -1,3 +1,49 @@
-div.App{
-    background-color: aquamarine;
+div.Home_body h1 {
+  font-family: "Guise Medium";
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.Home_body h1  + p {
+  font-family: "Guise Regular";
+  line-height: 1.6;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+div.Container_CMS {
+  display: flex;
+  margin: 20px;
+}
+
+div.Container_CMS h2 {
+  font-family: "Guise Medium";
+  font-size: 85px;
+  font-weight: 500;
+  line-height: 1.09;
+  letter-spacing: -5px;
+  text-align: left;
+  max-width: 540px;
+}
+
+div.Container_CMS p {
+  font-family: "Guise Regular";
+  font-size: 20px;
+  line-height: 1.6;
+  margin-left: 30;
+  margin-top: 200px;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+div.Container_CMS img {
+  height: 50%;
+  max-width: 100%;
+  margin-left: 3%;
+}
+
+div.Container_CMS >hr{
+    margin: 0 50px;
 }
